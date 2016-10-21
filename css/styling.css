@@ -12,6 +12,7 @@ button {
   background-image: url("../img/jumboback.png");
   background-position: center, center;
   background-repeat: no-repeat;
+  background-color: inherit;
   font-family: 'Lobster', cursive;
   color: #fff;
 }
@@ -26,6 +27,11 @@ button {
 
 #results {
   font-family: 'Lobster', cursive;
+  padding-left: 35%;
+}
+
+#results h1 {
+  font-size: 7em;
 }
 
 .blue {

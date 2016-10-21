@@ -1,12 +1,16 @@
 var deciding = function(type, creative, prefer, whatDoYouThink, flavor) {
-  if (creative === "totally" && prefer === "numbers" && whatDoYouThink === "front" && flavor === "chocolate") {
-    return "you should take php";
+  if (creative === "totally" && prefer === "numbers" && whatDoYouThink === "front") {
+    return "PHP";
   } else if (creative === "totally" && prefer === "art" && whatDoYouThink === "front") {
-    return "design";
-  } else if (type === "typea" && creative === "totally" && whatDoYouThink === "back" && flavor === "vanilla") {
-    return "ruby";
-  } else if (type === "typea" && creative === "sorta" && prefer === "numbers" && whatDoYouThink === "back" && flavor === "chocolate") {
-    return "c sharp";
+    return "Design";
+  } else if (type === "type-a" && creative === "totally" && whatDoYouThink === "back") {
+    return "Ruby";
+  } else if (creative === "sorta" && prefer === "numbers" && whatDoYouThink === "back") {
+    return "C#";
+  } else if (creative === "totally" && prefer === "art" || creative === "sorta" && prefer === "numbers") {
+    return "Android";
+  } else if (creative === "sorta" && prefer === "art" || creative === "totally" && prefer === "numbers") {
+    return "Python";
   }
 };
 

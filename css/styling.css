@@ -1,1 +1,15 @@
+.jumbotron {
+  background-image: url("../img/jumboback.png");
+  background-position: center, center;
+  background-repeat: no-repeat;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+}
 
+.jumbotron h1, .jumbotron h3 {
+  padding-left: 25%;
+}
+
+#work {
+  font-family: 'Courgette', cursive;
+}

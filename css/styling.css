@@ -27,3 +27,27 @@ button {
 #results {
   font-family: 'Lobster', cursive;
 }
+
+.blue {
+  background-color: #2980B9;
+}
+
+ .teal {
+   background-color: #1EB2C1;
+ }
+
+ .red {
+   background-color: #EC7063;
+ }
+
+ .grey {
+   background-color: #7F8C8D;
+ }
+
+ .orange {
+   background-color: #E59866;
+ }
+
+ .green {
+   background-color: #82E0AA;
+ }

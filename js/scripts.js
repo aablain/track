@@ -28,6 +28,26 @@ $(document).ready(function() {
     var whichToReveal = deciding(type, creative, prefer, whatDoYouThink, flavor);
     $(".answer").text(whichToReveal);
 
+    if (whichToReveal === "PHP") {
+      $("body").removeClass();
+      $("body").addClass("blue");
+    } else if (whichToReveal === "Design") {
+      $("body").removeClass();
+      $("body").addClass("teal");
+    } else if (whichToReveal === "Ruby") {
+      $("body").removeClass();
+      $("body").addClass("red");
+    } else if (whichToReveal === "C#") {
+      $("body").removeClass();
+      $("body").addClass("grey");
+    } else if (whichToReveal === "Android") {
+      $("body").removeClass();
+      $("body").addClass("orange");
+    } else if (whichToReveal === "Python") {
+      $("body").removeClass();
+      $("body").addClass("green")
+    }
+
     event.preventDefault();
 
   });

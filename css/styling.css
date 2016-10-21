@@ -1,3 +1,13 @@
+body {
+  background-color: #E2F1F4;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+button {
+  margin-top: 25px;
+}
+
 .jumbotron {
   background-image: url("../img/jumboback.png");
   background-position: center, center;
@@ -12,4 +22,8 @@
 
 #work {
   font-family: 'Courgette', cursive;
+}
+
+#results {
+  font-family: 'Lobster', cursive;
 }

@@ -20,9 +20,16 @@ $(document).ready(function() {
     var flavor = $("#flavor").val();
 
     var whichToReveal = decidingForYou(type, creative, prefer, whatDoYouThink, flavor);
-    var post = '"' + "#" + whichToReveal + '"';
 
-    $("#results4").show();
+    if (whichToReveal === results1) {
+      $("#results1").show();
+    } else if (whichToReveal === results2) {
+      $("#results2").show();
+    } else if (whichToReveal === results3) {
+      $("#results3").show();
+    } else if (whichToReveal === results4) {
+      $("#results4").show();
+    }
     alert("hey");
 
     event.preventDefault();
